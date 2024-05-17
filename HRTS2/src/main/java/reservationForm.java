@@ -14,7 +14,7 @@ import javax.swing.SwingConstants;
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 
-/**
+/*
  *
  * @author Admin
  */
