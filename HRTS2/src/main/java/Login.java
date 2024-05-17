@@ -58,6 +58,11 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 210, 250, -1));
 
         jButton1.setText("Forgot Password?");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 250, 140, -1));
 
         jButton2.setBackground(new java.awt.Color(255, 153, 153));
@@ -114,6 +119,12 @@ public class Login extends javax.swing.JFrame {
         MainMenu a = new MainMenu();
         a.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        ForgotPassword a = new ForgotPassword();
+        a.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
